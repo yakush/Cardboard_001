@@ -35,6 +35,7 @@ public class GlHelper {
     public static int loadShader (int type, Context context,@RawRes int resId){
         String code = readRawTextFile(context,resId);
         return loadShader(type,code);
+
     }
 
     public static int loadShader (int type, String shaderCode){
