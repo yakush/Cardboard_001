@@ -38,7 +38,7 @@ public class GlHelper {
         return loadShader(type,code);
 
 
-        
+
     }
 
     public static int loadShader (int type, String shaderCode){
